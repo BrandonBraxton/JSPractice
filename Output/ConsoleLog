@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Console Log</title>
+    </head>
+    <body>
+        <h2> Using Console Log </h2>
+        <script> 
+            console.log(6+4)
+        </script>
+
+    </body>
+</html>

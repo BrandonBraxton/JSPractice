@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction(){
+                document.getElementById("demo").innerHTML = "Paragraph Changed"
+            }
+        </script>
+    </head>
+    <body> 
+        <h2>Demo JS in Head</h2>
+        <p id="demo">A paragraph</p>
+        <button type="button" onclick="myFunction()">Try It!</button>
+    </body>
+
+    <body>
+        <h2> Demo JS in Body</h2>
+        <p id="demo2">A paragraph</p>
+        <button type="button" onclick="myFunc()">Try It!</button>
+        <script>
+            function myFunc() {
+                document.getElementById("demo2").innerHTML = "Paragraph Changed!"
+            }
+        </script>
+    </body>
+    <body>
+        <h2>Demo External JS</h2>
+        <p id="demo3">A paragraph</p>
+        <button type="button" onclick="myFunction()">Try Me!</button>
+        <p>This example links to "myScript.js".</p>
+        <p>(myFunction is stored in "myScript.js")</p>
+    
+        <script src="myScript.js"></script>
+    </body>
+    <body>
+        <h2>Demo External JS</h2>
+        <p id="demo4">A paragraph</p>
+        <button type="button" onclick="myFunc()">Try Me!</button>
+        <p>This example links to "myScript.js".</p>
+        <p>(myFunction is stored in "myScript.js")</p>
+    
+        <script src="myScript.js"></script>
+    </body>
+    
+</html>
